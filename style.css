@@ -1,0 +1,37 @@
+.title{
+    text-align: center;
+    height: 10rem;
+    padding-top: 4rem;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.card-format{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+.card-format:hover{
+    background-color: #ebebeb;
+    opacity: 0.7;
+}
+
+h4{
+    font-weight: bolder;
+}
+
+p{
+    font-weight: lighter;
+    font-size: medium;
+}
